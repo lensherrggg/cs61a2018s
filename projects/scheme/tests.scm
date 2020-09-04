@@ -10,7 +10,20 @@
 ;;; *** Add your own tests here! ***
 ;;; ********************************
 ; BEGIN PROBLEM 0
-'replace-this-line
+(+ 0 0)
+; 0
+
+(boolean? 3)
+; #f
+
+(pair? (cons 2 3))
+; #t
+
+(define x 2)
+; x
+
+x
+; 2
 ; END PROBLEM 0
 
 ;;; These are examples from several sections of "The Structure
